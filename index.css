@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('malmanxx-i3TDlwBTVbU-unsplash.jpg');
+  background-size: cover; 
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.5); 
+  backdrop-filter: blur(8px);
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  max-width: 30vw;
+  margin: 100px auto; 
+}
+
+.title {
+  font-size: 2em;
+}
+
+.nametitle {
+  font-size: 25px;
+}
+
+.inputTag, .buttoncss{
+  width: 100%; 
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.buttoncss {
+  background-color: #1c7e1f; 
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.buttoncss:hover {
+  background-color: #45a049;
+}
+
+.fact-section {
+  border-top: 1px solid #000000; 
+  margin-top: 40px; 
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+#fact {
+  font-size: 1.2em; 
+  color: #000000;
+}
+
+.resultdiv{
+  margin-top: 40px;
+}
+
+
